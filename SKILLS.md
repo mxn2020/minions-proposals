@@ -1,6 +1,12 @@
 ---
 name: minions-proposals
-description: Proposal drafts, answer sets, scoring, and prompt version references
+id: OC-0145
+version: 1.0.0
+description: "Proposal drafts, answer sets, scoring, and prompt version references"
+category: ai
+subcategory: general
+tags: ["minion", "ai", "general"]
+comments:
 ---
 
 # minions-proposals — Agent Skills
