@@ -1,0 +1,28 @@
+{
+    "name": "minions-proposals-workspace",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Proposal drafts, answer sets, scoring, and prompt version references",
+    "type": "module",
+    "license": "MIT",
+    "author": "Mehdi Nabhani <mehdi@the-mehdi.com> (https://the-mehdi.com)",
+    "workspaces": [
+        "packages/*",
+        "apps/*"
+    ],
+    "scripts": {
+        "build": "pnpm --filter @minions-proposals/sdk run build && pnpm --filter @minions-proposals/cli run build && pnpm --filter minions-proposals-docs run build && pnpm --filter minions-proposals-blog run build && pnpm --filter minions-proposals-web run build",
+        "deploy:blog": "pnpm --filter minions-proposals-blog run build && netlify deploy --dir apps/blog/dist --prod",
+        "deploy:docs": "pnpm --filter minions-proposals-docs run build && netlify deploy --dir apps/docs/dist --prod",
+        "deploy:web": "pnpm --filter minions-proposals-web run build && netlify deploy --dir apps/web/dist --prod",
+        "test": "pnpm --filter @minions-proposals/sdk run test",
+        "lint": "pnpm --filter @minions-proposals/sdk run build && pnpm --filter @minions-proposals/sdk run lint && pnpm --filter @minions-proposals/cli run lint",
+        "deploy": "pnpm run deploy:blog"
+    },
+    "engines": {
+        "node": ">=20"
+    },
+    "devDependencies": {
+        "typescript": "^5.9.3"
+    }
+}
