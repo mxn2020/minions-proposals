@@ -1,0 +1,8 @@
+name: "@minions-proposals/sdk"
+project_scope: child
+child_type: sdk
+parent_project: minions-proposals-workspace
+description: "Proposal drafts, answer sets, scoring, and prompt version references"
+priority: high
+deploy_url: null
+tags: null

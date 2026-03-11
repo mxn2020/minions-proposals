@@ -1,0 +1,15 @@
+name: minions-proposals-workspace
+project_scope: main
+project_type: monorepo
+description: "Proposal drafts, answer sets, scoring, and prompt version references"
+tier: idea
+lane: minions
+priority: medium
+oss: true
+stack: [typescript]
+repo: "https://github.com/mxn2020/minions-proposals"
+deploy_url: null
+last_active: 2026-02-23
+tags: [minion, toolbox, ai-agent, automation, minions, proposals]
+notes: null
+id: 2bd9398f-8210-4484-9b75-87b57e5a7c88

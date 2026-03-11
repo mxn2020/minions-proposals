@@ -1,0 +1,8 @@
+name: "@minions-proposals/cli"
+project_scope: child
+child_type: cli
+parent_project: minions-proposals-workspace
+description: "CLI for minions-proposals — Proposal drafts, answer sets, scoring, and prompt version references"
+priority: high
+deploy_url: null
+tags: null
