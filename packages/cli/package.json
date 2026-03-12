@@ -1,6 +1,6 @@
 {
   "name": "@minions-proposals/cli",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CLI for minions-proposals — Proposal drafts, answer sets, scoring, and prompt version references",
   "license": "MIT",
   "repository": {
